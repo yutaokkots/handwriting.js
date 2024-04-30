@@ -2,6 +2,12 @@
 
 A simple API access to the incredible handwriting recognition of Google IME
 
+## License
+
+Forked from [ChenYuHo](https://github.com/ChenYuHo/handwriting.js)'s handwriting.js repository. 
+
+Copy of [original MIT License here](https://github.com/ChenYuHo/handwriting.js/blob/master/LICENSE).
+
 ## Demo
 See [here](https://www.chenyuho.com/project/handwritingjs)
 
@@ -239,6 +245,4 @@ so that you can take advantage of the **handwriting.canvas** object, while not c
 | Welsh                 | 威爾斯文          | cy    |
 
 ***
-## License
 
-MIT licensed
