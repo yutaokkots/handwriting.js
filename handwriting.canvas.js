@@ -83,7 +83,6 @@
         this.handwritingY.push(y);
     };
 
-
     handwriting.Canvas.prototype.mouseMove = function(e) {
         if (this.drawing) {
             var rect = this.canvas.getBoundingClientRect();
@@ -105,7 +104,6 @@
         this.drawing = false;
         if (this.allowUndo) this.step.push(this.canvas.toDataURL());
     };
-
 
     handwriting.Canvas.prototype.touchStart = function(e) {
         e.preventDefault();
@@ -208,7 +206,7 @@
                 },
                 "ink": trace,
                 "language": options.language || "zh_TW"
-            }]
+            }]  
         });
         var xhr = new XMLHttpRequest();
         xhr.addEventListener("readystatechange", function() {
